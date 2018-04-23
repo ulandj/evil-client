@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency "dry-initializer", "~> 2.1"
   gem.add_runtime_dependency "mime-types", "~> 3.1"
-  gem.add_runtime_dependency "rack", "~> 2"
+  gem.add_runtime_dependency "rack", "~> 1.6.9"
   gem.add_runtime_dependency "tram-policy", ">= 0.3.1", "< 2.0"
 
   gem.add_development_dependency "rake", ">= 10"
